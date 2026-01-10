@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "warlords2qol",
+	"version": "${version}",
+	"name": "Warlords2 QOL",
+	"description": "Quality of life mod for Warlords 2",
+	"authors": [
+		"adam07-dev"
+	],
+	"contact": {
+		"homepage": "https://https://github.com/adam07-dev",
+		"sources": "https://https://github.com/adam07-dev/Warlords2-QOL-1.21.4"
+	},
+	"license": "MIT",
+	"icon": "assets/warlords2qol/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.adam.warlords2qol.Warlords2QOL"
+		],
+		"fabric-datagen": [
+			"net.adam.warlords2qol.Warlords2QOLDataGenerator"
+		],
+        "client": [
+            "net.adam.warlords2qol.Warlords2QOLClient"
+        ]
+	},
+	"mixins": [
+		"warlords2qol.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
