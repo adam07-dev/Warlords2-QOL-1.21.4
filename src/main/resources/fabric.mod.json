@@ -22,7 +22,8 @@
 			"net.adam.warlords2qol.Warlords2QOLDataGenerator"
 		],
         "client": [
-            "net.adam.warlords2qol.Warlords2QOLClient"
+          "net.adam.warlords2qol.RespawnTimer",
+          "net.adam.warlords2qol.LastStandDetection"
         ]
 	},
 	"mixins": [

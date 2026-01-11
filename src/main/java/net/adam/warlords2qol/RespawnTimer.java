@@ -19,7 +19,7 @@ import static net.fabricmc.fabric.api.client.command.v2.ClientCommandManager.arg
 import net.adam.warlords2qol.mixin.InGameHudAccessor;
 
 
-public class Warlords2QOLClient implements ClientModInitializer {
+public class RespawnTimer implements ClientModInitializer {
 
     public static final String MOD_ID = "warlords2qol";
     private static final Logger LOGGER = LoggerFactory.getLogger(Warlords2QOL.MOD_ID);
