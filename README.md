@@ -3,7 +3,7 @@
 - Last Stand detection and timer
 - Intervene detection and timer
 
-# Download: https://www.mediafire.com/file/aau55ixq85dwylq/warlords2qol-1.0.0.jar/file
+# Download: https://www.mediafire.com/file/m16kcxfwxhf8cz8/warlords2qol-1.0.0.jar/file
 
 ## Commands
 
